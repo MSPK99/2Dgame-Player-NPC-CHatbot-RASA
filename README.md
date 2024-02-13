@@ -7,7 +7,7 @@ A dynamic chatbot integration for 2D game environments, facilitating engaging co
 
 - **Dynamic NPC Conversations**: Leverages NLU (Natural Language Understanding) for NPCs to respond dynamically to player inputs.
 - **Customizable Responses**: Utilizes `domain.yml` to define and expand NPC responses for unique interactions.
-- **Integration with Game Mechanics**: Easily integrates with 2D game engines, enhancing player immersion.
+- **Integration with Game Mechanics**: working towards integrating chatbot with 2D game engines, enhancing player immersion.
 - **Scalable Conversation Logic**: Employs `stories.yml` and `rules.yml` to evolve conversation flows based on player actions or progress.
 - **AGPL Licensed**: Promotes community sharing and improvements.
 
