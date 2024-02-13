@@ -2,10 +2,6 @@
 # Project Name : RASA CHATBOT -> Player <=> NPC  Conversations
 
 A dynamic chatbot integration for 2D game environments, facilitating engaging conversations between players and NPCs.
-### Example Conversation :
-
-![Screenshot 2024-02-13 112608](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/assets/157824384/58503eec-7be3-4b27-b3f4-d30697abe7d9)
-
 
 ## Features
 
@@ -76,6 +72,28 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
 - **Implement Custom Actions**: Extend `actions.py` with game-specific logic for dynamic interactions.
 - **Integration with Game Engine**: Embed the chatbot in your game, processing player inputs and bot responses within the game context.
 - **Testing and Iteration**: Continuously refine the chatbot based on player feedback and testing.
+
+
+
+
+## Sample Conversation :
+
+Below is an example of a conversation using the chatbot in its current iteration. As the project is in the initial phase, the dialogue showcases the chatbot's current capabilities and areas where refinement and expansion are needed.
+
+![Screenshot 2024-02-13 112608](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/assets/157824384/58503eec-7be3-4b27-b3f4-d30697abe7d9)
+
+
+
+## Room for Improvement
+The chatbot is still in the early stages of development, and there are several key areas where we are focusing on improvements:
+
+-**Contextual Understanding**: Enhancing the chatbot's ability to understand the context of the conversation and maintain coherence throughout interactions.
+-**Response Variability**: Increasing the variability and complexity of responses to avoid repetition and create a more dynamic conversation.
+-**Emotional Intelligence**: Improving the chatbot's capability to recognize and appropriately respond to the emotional content of user inputs.
+-**Game Integration**: Further developing the integration with game mechanics to provide a seamless experience between gameplay and chatbot interactions.
+
+I welcome contributions, especially in these areas, to help evolve the chatbot's conversational abilities and integration into the gaming environment.
+
 
 ## Contributing
 
