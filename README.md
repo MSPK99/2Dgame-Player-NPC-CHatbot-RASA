@@ -1,5 +1,5 @@
 
-# Project Name : RASA CHATBOT -> Player <=> NPC  Conversations
+# RASA CHATBOT -> Player <=> NPC  Conversations
 
 A dynamic chatbot integration for 2D game environments, facilitating engaging conversations between players and NPCs.
 
