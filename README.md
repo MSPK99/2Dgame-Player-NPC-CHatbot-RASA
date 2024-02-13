@@ -25,8 +25,6 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
   ```bash
   pip install rasa
   ```
-
-- A compatible 2D game engine.
 - Basic knowledge of Python and YAML.
 
 ### Installation
@@ -50,17 +48,16 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
 
 
 8. Follow the configuration instructions in `config.yml` for NLU model and dialogue management.
-9. Integrate `actions.py` into your game's event handling system.
 
-10.  Then to train ur rasa model  
+9.  Then to train ur rasa model  
    ```bash
     rasa train
    ```
-11. once ur model has been trained. its recommended to create a new terminal and run
+10. once ur model has been trained. its recommended to create a new terminal and run
    ```bash
    rasa run actions
    ```
-12. finally to converse 
+11. finally to converse 
    ```bash
    rasa shell
    ```
