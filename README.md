@@ -2,6 +2,10 @@
 # Project Name : RASA CHATBOT -> Player <=> NPC  Conversations
 
 A dynamic chatbot integration for 2D game environments, facilitating engaging conversations between players and NPCs.
+### Example Conversation :
+
+![Screenshot 2024-02-13 112608](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/assets/157824384/58503eec-7be3-4b27-b3f4-d30697abe7d9)
+
 
 ## Features
 
