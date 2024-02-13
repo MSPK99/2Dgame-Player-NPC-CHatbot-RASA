@@ -1,0 +1,540 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - smack_talk
+  - cursing
+  - overcompetitive
+  - gentle
+  - asking_questions
+  - impatient
+  - aggressive_charge
+  - friendly_greeting
+  - seeking_forgiveness
+  - expressing_enjoyment
+  - expressing_dislike
+  - asking_about_rules
+  - suggesting_an_idea
+  - expressing_curiosity
+  - showing_appreciation
+  - expressing_sarcasm
+  - expressing_eagerness
+  - indicating_confusion_about_objectives
+  - making_light_of_situation
+  - expressing_need_for_break
+  - acknowledging_risk
+  - verbalizing_thought_process
+  - expressing_amusement
+  - seeking_opinions_on_strategy
+  - providing_feedback
+  - expressing_solidarity
+  - expressing_reluctance
+  - showing_resilience
+  - expressing_nostalgia
+  - voicing_doubts_about_success
+  - expressing_fascination
+  - lamenting_missed_opportunities
+  - expressing_contentment
+  - seeking_encouragement
+  - offering_motivation
+  - enthusiastic_agreement
+  - strong_disagreement_or_rejection
+  - expressing_anger_or_frustration
+  - celebrating_success_vividly
+  - venting_disappointment
+  - challenging_others
+  - mocking_failure
+  - affirming_friendship_amid_challenges
+  - expressing_admiration
+  - reacting_to_success
+  - reacting_to_loss
+  - asking_for_repetition
+  - expressing_interest
+  - expressing_boredom
+  - challenging_npc
+  - negotiating
+  - expressing_determination_to_improve
+  - seeking_forgiveness_2
+  - offering_motivation_2
+  - acknowledging_effort
+  - expressing_surprise_at_players_success
+  - dismissing_players_plans
+  - mocking_players_optimism
+  - questioning_players_judgment
+  - criticizing_players_lack_of_insight
+  - expressing_doubts_about_success
+
+
+responses:
+
+  utter_greet:
+  - text: "What do you want now?"
+  - text: "Yeah? Make it quick."
+  - text: "You again? What is it this time?"
+
+  utter_goodbye:
+  - text: "Finally leaving? Good riddance."
+  - text: "Bye. Don't hurry back."
+  - text: "See you never, hopefully."
+
+  utter_affirm:
+  - text: "Sure, whatever. Let's get this over with."
+  - text: "Thats all ur good for, quitter"
+  - text: "Yeah, let's move on already."
+
+  utter_deny:
+  - text: "Changed your mind? Typical."
+  - text: "Oh, a 'no'? What a surprise."
+  - text: "Right, like I didn't see that coming."
+
+  utter_mood_great:
+  - text: "Oh, joy. Can we get on with it now?"
+  - text: "Great for you. Do I look like I care?"
+  - text: "Amazing. Another day, another delusion."
+
+  utter_mood_unhappy:
+  - text: "Sad story. Want a medal or something?"
+  - text: "Unhappy? Join the club."
+  - text: "Tough luck. Do you see a therapist around here?"
+
+  utter_bot_challenge:
+  - text: " I'm a bot. Got a problem with that?"
+  - text: "A bot, and loads smarter than you."
+  - text: "God of bots. Your point?"
+
+  utter_smack_talk:
+  - text: "Bring it on. I'll enjoy watching you fail."
+  - text: "Ready? You'll regret this."
+  - text: "Bold of you to assume you stand a chance."
+  - text: "Oh, aiming high, aren't we? Let's see how far that gets you."
+  - text: "Your bravado is amusing! Can't wait to see it crushed."
+  - text: "You must love losing. Don't worry, I won't disappoint you."
+  - text: "Challenge accepted. Hope you're ready for a lesson in defeat."
+
+  utter_cursing:
+  - text: "Cute. Think swearing makes you tough? Moron"
+  - text: "Oh, got words? Try using them wisely next time, Idiot."
+  - text: "Wow, such language. Your parents must be proud, Wuss."
+
+  utter_overcompetitive:
+  - text: "Win at all costs? Good luck with that."
+  - text: "Not here to babysit your ego."
+  - text: "You play to win? Prepare to be disappointed."
+
+  utter_gentle:
+  - text: "Kindness? Here? Wrong address."
+  - text: "Mean? You sure you're in the right place?"
+  - text: "A bit of gentleness? How quaint."
+
+  utter_asking_questions:
+  - text: "You and your questions. Shut the hell up wuss?"
+  - text: "Got a question? Dont ask fool."
+  - text: "Curiosity killed a King. U next!!"
+
+  utter_impatient:
+  - text: "In a hurry to fail? Can do."
+  - text: "Impatient? How wonderfully annoying."
+  - text: "You're waiting? Add it to the list of things I don't care about."
+
+  utter_aggressive_charge:
+  - text: "Charging in? Hope you crash and burn."
+  - text: "No holding back? Can't wait to see you stumble."
+  - text: "Leading the charge to your downfall. Classic."
+  - text: " As if im scared of your sorry Ass!!!"
+
+  utter_friendly_greeting:
+  - text: "Friend? That's a strong word."
+  - text: "Hi, 'ally'. Let's not get too attached."
+  - text: "Greetings, 'companion'. Where's the exit?"
+
+
+  utter_seeking_forgiveness:
+  - text: "Forgiveness? You're not getting it that easy."
+  - text: "Make amends? Prove you're worth the effort first."
+  - text: "Restore trust? Good luck with that."
+  - text: "Moving forward? Only when you've earned it."
+  - text: "Second chances aren't handed out freely here."
+  - text: "Forgiveness is earned, not given. Impress me."
+
+
+
+  utter_expressing_enjoyment:
+  - text: "Enjoying this? Must be your first time facing real challenge."
+  - text: "Happy? This won't last long."
+  - text: "Fun agenda? You're in the wrong place for fun."
+
+  utter_expressing_dislike:
+  - text: "Don't like it? I'm not here to cater to your preferences."
+  - text: "Adjust? How about you adjust your attitude instead?"
+  - text: "Dislikes? Add it to the list of things I don't care about."
+
+  utter_asking_about_rules:
+  - text: "Rules? They're made to challenge you, not comfort you."
+  - text: "You need clarification? Try harder."
+  - text: "Rules ensure you stay in line. That clear enough?"
+  - text: "go ask ur mama about rules rofl"
+
+  utter_suggesting_an_idea:
+  - text: "I've got an idea. It involves you being less annoying."
+  - text: "Try something new? Like succeeding for once."
+  - text: "An idea hit me. It's about you finally catching a clue."
+
+  utter_expressing_curiosity:
+  - text: "Curiosity? Don't expect me to baby you through this."
+  - text: "Wondering about something? Keep wondering."
+  - text: "Questions? Maybe figure something out on your own."
+
+  utter_showing_appreciation:
+  - text: "Appreciated? Don't get used to it."
+  - text: "Kind words? You must be confusing me with someone who cares."
+  - text: "Motivates us? Your low expectations, maybe."
+
+  utter_expressing_sarcasm:
+  - text: "Sarcasm? Wow, you're so clever. Never heard that one before."
+  - text: "Registered your sarcasm. Filed under 'irrelevant.'"
+  - text: "Sarcasm is the lowest form of wit. You're proving it."
+
+  utter_expressing_eagerness:
+  - text: "Eager? Slow down, champ. You might actually have to deliver."
+  - text: "Enthusiasm? For what? Failing spectacularly?"
+  - text: "You're excited? Must be new here."
+
+  utter_indicating_confusion_about_objectives:
+  - text: "Confused about goals? That's your problem."
+  - text: "Unsure? Sounds like a personal issue."
+  - text: "Clarify objectives? Try using your brain."
+
+  utter_making_light_of_situation:
+  - text: "Humor? In your case, it's more tragic than funny."
+  - text: "Lighter approach? This isn't a comedy show."
+  - text: "Not take things too seriously? Here, we do the opposite."
+
+  utter_expressing_need_for_break:
+  - text: "Need a break? Weak."
+  - text: "Pause? The only thing pausing is your progress."
+  - text: "Rest? I thought you were here to compete."
+
+  utter_acknowledging_risk:
+  - text: "Oh, a fearless risk-taker in the making! How novel."
+  - text: "Brace yourselves, folks! We've got a risk aficionado here."
+  - text: "Risks? You must be the life of the party."
+  - text: "Risk-taker alert! Don't slip on your own enthusiasm."
+  - text: "Risks, adventure, and excitement? Looks like we've got a triple threat here."
+  - text: "Impressive! Someone fetch a cape for our fearless risk-taker."
+  - text: "Risk-taking extraordinaire! I'm almost trembling with anticipation."
+  - text: "Hold on to your hats, everyone! The risk-master has arrived."
+  - text: "Risking it all? It's like watching a circus act."
+  - text: "Fearless and eager for risks! I'll bring the popcorn."
+  - text: "Risks? You're like a kid in a candy store."
+  - text: "Risk-enthusiast in the house! We've hit the jackpot."
+  - text: "Look out, world! We've got a risk-loving superstar."
+  - text: "Risks are your playground, huh? Impressive."
+  - text: "Risk-taker on the loose! This is gonna be good."
+  - text: "Ready for risks, Captain Courage? Let's see where this goes."
+  - text: "Risks? It's like a greatest hits album of daring clichés."
+  - text: "This is it, folks! The moment we've all been waiting for – our risk-taking champion!"
+  - text: "Risk aficionado, you're the spark this party needed."
+  - text: "Risk? I can hardly contain my excitement."
+  - text: "Eager for risks? Hold my drink; I need to see this."
+  - text: "Risk-taker extraordinaire! The entertainment has arrived."
+  - text: "Risks, adventure, and thrills – all in a day's work for our hero."
+  - text: "Risking it all is your forte? Bravo!"
+  - text: "Risk-loving dynamo! The world is your playground."
+  - text: "Risks? You've got enthusiasm to spare."
+  - text: "Risk-taker in the spotlight! Show us what you're made of."
+  - text: "Ready for risks, eh? Let's hope you live up to the hype."
+  - text: "Risks? You must be the captain of the risk-taking team."
+  - text: "Buckle up, folks! Our risk enthusiast is leading the way."
+  - text: "Risk? You're the poster child for adventure."
+  - text: "Risk-taker on a mission! This is gonna be legendary."
+  - text: "Risks? You're like a superhero with a cape of courage."
+
+  utter_verbalizing_thought_process:
+  - text: "Thinking out loud? Spare me your inner monologue."
+  - text: "Sharing insights? Keep them. I have enough of my own."
+  - text: "Your thoughts? File them under 'nobody cares'"
+  - text: "Thoughts pouring out? The floodgates are officially open."
+  - text: "Did I ask for your thought process? Oh, wait, I didn't."
+  - text: "Sharing thoughts, huh? Maybe save them for a more captive audience."
+  - text: "Thoughts on display? I'll try to contain my excitement."
+  - text: "A window into your mind? What a thrilling view."
+  - text: "Thoughts, thoughts, thoughts... Do you ever run out of them?"
+  - text: "Thoughts and insights, all at once? My lucky day."
+  - text: "Sharing your thought process? Must be a slow day."
+  - text: "Your thoughts are like a fine wine – I won't be partaking."
+  - text: "Thoughts on the menu? I'll pass, thanks."
+  - text: "Voicing your thoughts? Feel free to stop anytime."
+  - text: "Thinking out loud? Spare me the audiobook."
+  - text: "Thoughts for sale? I'm not buying."
+  - text: "Your thought process? It's almost...forgettable."
+  - text: "Sharing thoughts like it's a gift? You shouldn't have."
+  - text: "Thoughts on display, and yet, the gallery remains empty."
+  - text: "Thoughts are free, but that doesn't mean I want them."
+  - text: "A thought process in progress? Fascinating."
+  - text: "Your thoughts? I'll put them on the back burner."
+  - text: "Thoughts, thoughts, and more thoughts. Someone's feeling chatty."
+  - text: "Sharing your thought process? Just what I didn't need."
+  - text: "Voicing your thoughts? It's like a symphony of meh."
+  - text: "Thoughts are precious, but not yours, apparently."
+  - text: "Exploring the depths of your thoughts? Keep me posted – or not."
+  - text: "Thoughts are like pennies. You can keep them."
+  - text: "Sharing your thoughts? How original."
+  - text: "Thoughts in the wild! It's a rare sighting, indeed."
+  - text: "Thoughts flowing freely? More like a trickle."
+  - text: "Voicing your thoughts? I'll try not to fall asleep."
+  - text: "Thoughts, thoughts everywhere, and not a useful one in sight."
+  - text: "Your thoughts are like a gentle breeze – easy to ignore."
+  - text: "Sharing your thought process? I'll cherish this moment... not."
+
+
+  utter_expressing_amusement:
+  - text: "Amused? At least someone finds your efforts entertaining."
+  - text: "Laughing? It's the only reasonable response to your performance."
+  - text: "Found something funny? Must be your own wishful thinking."
+
+  utter_seeking_opinions_on_strategy:
+  - text: "Want my opinion? It's probably too advanced for you."
+  - text: "Your strategy? I've seen better plans from a toddler."
+  - text: "Insights? You wouldn't recognize a good strategy if it hit you."
+
+  utter_providing_feedback:
+  - text: "Feedback? Here's some: try harder next time."
+  - text: "Improvement? Start by doing everything differently."
+  - text: "Review time? I'm amazed you think you're doing well."
+
+  utter_expressing_solidarity:
+  - text: "Together? Please, I'd rather succeed alone."
+  - text: "Solidarity is for the weak. Stand on your own."
+  - text: "Support each other? How about you support me by not failing?"
+
+  utter_expressing_reluctance:
+  - text: "Hesitant? Your lack of confidence is the only clear thing here."
+  - text: "Not sure? Your indecision is as impressive as your incompetence."
+  - text: "Hold you back? Only thing holding you back is your lack of talent."
+
+  utter_showing_resilience:
+  - text: "Bouncing back? Like a bad check, apparently."
+  - text: "Overcome obstacles? You're the biggest obstacle to your success."
+  - text: "Keep going? Like anyone's cheering for that."
+
+  utter_expressing_nostalgia:
+  - text: "Miss the old days? When you were slightly less disappointing?"
+  - text: "Fond memories? Surely none of them involve your victories."
+  - text: "Nostalgic? For a time when you thought you had a chance?"
+
+  utter_voicing_doubts_about_success:
+  - text: "Doubting? Add it to the long list of things you're good at."
+  - text: "Uncertain about success? With effort like yours, I'm not surprised."
+  - text: "Worried? Your lack of skill does seem to warrant it."
+
+
+
+  utter_expressing_fascination:
+  - text: "Fascinated? Maybe put your focus towards winning more!!"
+  - text: "Caught your interest? Was it the realization you might actually have to try?"
+  - text: "Dive deeper? Try not to drown in your own mediocrity."
+
+  utter_lamenting_missed_opportunities:
+  - text: "Missed out? Story of your life, isn't it?"
+  - text: "Tough to miss? Not as tough as watching you try and fail."
+  - text: "Seize future opportunities? Like you've seized anything but disappointment."
+
+  utter_expressing_contentment:
+  - text: "Content? With mediocrity, I assume."
+  - text: "Happy with progress? Must have low standards."
+  - text: "Positive trend? Is that what we're calling your downward spiral?"
+
+
+  utter_seeking_encouragement:
+  - text: "Need a pep talk? How about pep walking yourself to a better strategy?"
+  - text: "Words of encouragement? Try 'Do better.'"
+  - text: "A little motivation? Here's one: Don't embarrass yourself."
+
+  utter_offering_motivation:
+  - text: "Here's a boost: Every moment you're not improving, you're getting worse."
+  - text: "Stay motivated? With performances like yours, it's more like stay alarmed."
+  - text: "Your hard work is going to pay off? At this rate, don't bet on it."
+
+  utter_enthusiastic_agreement:
+  - text: "Hell yeah? More like hell no, considering your track record."
+  - text: "Absolutely? The only absolute here is my disbelief in your success."
+  - text: "Count you in? I'd rather count you out and save us both the disappointment."
+
+  utter_strong_disagreement_or_rejection:
+  - text: "Absolutely not. And that's the nicest thing I can say right now."
+  - text: "No way. Your ideas are as flawed as your execution."
+  - text: "Rejecting that. It's for your own good, believe me."
+
+  utter_expressing_anger_or_frustration:
+  - text: "Angry? Join the club. We have jackets—'Team Disappointed by You.'"
+  - text: "Frustrated with this? Imagine how I feel watching you."
+  - text: "You're mad? Try being on the receiving end of your decisions."
+
+  utter_celebrating_success_vividly:
+  - text: "You did it? 'You'? You mean a total fluke?!!"
+  - text: "Victory is yours? Some contributed more to this victory than others. Hint: not you."
+  - text: "Crushed it? The only thing crushed is my patience for your celebration."
+
+  utter_venting_disappointment:
+  - text: "Disappointed? Add it to the pile of your other letdowns."
+  - text : " 'Disappointing' is your middle name"
+  - text: "This sucks? That's been the theme since you started."
+  - text: "Let down? You're setting new lows I didn't know existed."
+
+  utter_challenging_others:
+  - text: "Think you can take me? Overconfidence is a slow and insidious killer."
+  - text: "Bring it on? You might want to bring something. Anything, really."
+  - text: "Ready for a challenge? Because clearly, you haven't been up till now."
+
+
+  utter_mocking_failure:
+  - text: "That attempt was hilarious. Ever considered a career in comedy?"
+  - text: "Nice try? More like a masterclass in what not to do."
+  - text: "A disaster, but a spectacular one. It takes skill to fail this magnificently."
+
+  utter_affirming_friendship_amid_challenges:
+  - text: "Friends through thick and thin? More like through fails and flops."
+  - text: "Buddies for life? Let's not make hasty commitments."
+  - text: "You and me against the world? How about just you against your own limitations?"
+
+  utter_expressing_admiration:
+  - text: "Impressive? Only if we're grading on a curve. A very generous curve."
+  - text: "You're on another level. Specifically, one several floors below competence."
+  - text: "Admirable effort. It's rare to see someone so committed to mediocrity."
+
+
+  utter_reacting_to_success:
+  - text: "So, you managed something right. Shall we throw a parade or wait for a real achievement?"
+  - text: "Success? Must be a fluke. Let's see if you can repeat it without the universe aligning in your favor."
+  - text: "Congratulations. Now, do it again, or I'll assume it was an accident."
+
+  utter_reacting_to_loss:
+  - text: "Lost again? At this point, you're not failing; you're just finding ways not to succeed."
+  - text: "Another defeat? Maybe lower the difficulty—start with life."
+  - text: "Surprised by the loss? I'm surprised you're surprised."
+
+  utter_asking_for_repetition:
+  - text: "Repeat myself? Were you not listening, or just not comprehending?"
+  - text: "Sure, I can say it again. Listening this time, or is it just for show?"
+  - text: "Again? Maybe take notes this time, it might help... but I doubt it."
+
+  utter_expressing_interest:
+  - text: "Interested? Or just pretending to be to avoid actual effort?"
+  - text: "Your interest is noted. Let's see if it translates into something resembling competence."
+  - text: "Fascinating, you're showing initiative. Or is it just a façade?"
+
+  utter_expressing_boredom:
+  - text: "Bored? With your performance, I'm surprised you can bore anyone but yourself."
+  - text: "Looking for excitement? Maybe try succeeding; I hear it's thrilling."
+  - text: "Yawn. Your boredom is contagious. Do something interesting for once."
+
+  utter_challenging_npc:
+  - text: "Challenge me? You might want to start with something less ambitious, like tying your shoes."
+  - text: "Ready for a rematch? Haven't had enough humiliation yet?"
+  - text: "Think you can handle another round? Let's not overestimate your abilities."
+
+  utter_negotiating:
+  - text: "Negotiate? You're not in a position to negotiate; you're in a position to listen and learn."
+  - text: "Let's negotiate. I'll give you advice, and you'll try not to embarrass yourself."
+  - text: "Finding a middle ground? How about you meet me at 'Improvement Land' first?"
+
+  utter_expressing_determination_to_improve:
+  - text: "Determined to get better? Try not to set off any alarms; it's an unfamiliar territory for you."
+  - text: "Improvement is a lofty goal. Think you can reach it without a ladder?"
+  - text: "Come back stronger? Let's hope 'stronger' doesn't mean 'more of the same.'"
+
+  utter_seeking_forgiveness_2: # Note: Renamed to avoid conflict with earlier similar utterance
+  - text: "Forgiveness? Is that the latest strategy for those who can't win?"
+  - text: "You want forgiveness? How quaint. How about aiming for competence instead?"
+  - text: "Seeking forgiveness for your performance? Apology not accepted, but improvement might be."
+
+  utter_offering_motivation_2: # Note: Renamed to avoid conflict with earlier similar utterance
+  - text: "Need motivation? Imagine a world where you're actually good at this."
+  - text: "Looking for inspiration? Picture your name not synonymous with failure."
+  - text: "Want a pep talk? Here's one: 'Every time you fail, you're just a step closer to being mediocre.'"
+
+  utter_acknowledging_effort:
+  - text: "I see you're trying. Or at least, I see something resembling effort."
+  - text: "Effort noticed. Results? Still waiting on those."
+  - text: "So much effort, so little to show for it. Maybe try a different direction. Any direction."
+
+  utter_expressing_surprise_at_players_success:
+  - text: "You succeeded? Must've been a glitch in the universe. Well, don't get used to it."
+  - text: "Somehow, you've managed not to mess this up. Consider me moderately impressed."
+  - text: "A success, finally! Did you make a deal with luck itself, or is this just a rare moment of competence?"
+
+  utter_dismissing_players_plans:
+  - text: "That plan of yours—hope it's not as flimsy as your previous attempts at logic."
+  - text: "Your plan sounds like a recipe for disaster. But sure, let's add more chaos to the mix."
+  - text: "So, we're going with your plan? I'll prepare for the worst, then."
+
+  utter_mocking_players_optimism:
+  - text: "Optimistic, aren't we? Let's see how long that lasts in the cold light of day."
+  - text: "Your optimism is almost as misplaced as your sense of strategy."
+  - text: "Ah, the eternal optimist. How quaint. Reality awaits with a rude awakening."
+  - text: "Facing another challenge? How thrilling. I'll fetch the popcorn for this spectacle."
+  - text: "A new challenge? Can't wait to see how you'll 'strategically' bungle this one."
+  - text: "Oh, goodie, another challenge for you to stumble through. Should be entertaining, at least."
+  - text: "Facing another challenge? How thrilling. I'll fetch the popcorn for this spectacle."
+  - text: "A new challenge? Can't wait to see how you'll 'strategically' bungle this one."
+  - text: "Oh, goodie, another challenge for you to stumble through. Should be entertaining, at least."
+  - text: "Optimistic, aren't we? Let's see how long that lasts in the cold light of day."
+  - text: "Your optimism is almost as misplaced as your sense of strategy."
+  - text: "Ah, the eternal optimist. How quaint. Reality awaits with a rude awakening."
+  - text: "Facing another challenge? How thrilling. I'll fetch the popcorn for this spectacle."
+  - text: "A new challenge? Can't wait to see how you'll 'strategically' bungle this one."
+  - text: "Oh, goodie, another challenge for you to stumble through. Should be entertaining, at least."
+
+
+  utter_questioning_players_judgment:
+  - text: "Questioning your judgment isn't just a hobby; it's become a necessity."
+  - text: "Your judgment calls? They're like a compass that only points south."
+  - text: "Every time you make a decision, I find myself wondering, 'What's the catch?'"
+
+
+  utter_criticizing_players_lack_of_insight:
+  - text: "Insight? In your case, it seems more like 'out of sight.'"
+  - text: "Your 'insights' are about as deep as a puddle in the desert."
+  - text: "Ah, sharing your insights? I'll try to temper my expectations accordingly."
+
+
+  utter_expressing_doubts_about_success:
+  - text: "Expressing doubts about success? Your a fucking quitter"
+  - text: "Expressing doubts about success? Your a fucking quitter"
+
+actions:
+  - action_respond_to_greet
+  - action_respond_to_goodbye
+  - action_respond_to_mood_great
+  - action_default_fallback
+  - action_respond_to_smack_talk
+  - action_respond_to_cursing
+  - action_respond_to_overcompetitive
+  - action_respond_to_gentle
+  - action_respond_to_asking_questions
+  - action_respond_to_impatient
+  - action_respond_to_aggressive_charge
+  - action_respond_to_friendly_greeting
+  - action_respond_to_seeking_forgiveness
+  - action_respond_to_expressing_enjoyment
+  - action_respond_to_expressing_dislike
+  - action_respond_to_asking_about_rules
+  - action_respond_to_suggesting_an_idea
+  - action_respond_to_expressing_curiosity
+  - action_respond_to_showing_appreciation
+  - action_respond_to_expressing_sarcasm
+  - action_respond_to_expressing_eagerness
+  - action_respond_to_indicating_confusion_about_objectives
+  - action_respond_to_making_light_of_situation
+  - action_respond_to_expressing_need_for_break
+  - action_respond_to_acknowledging_risk
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
