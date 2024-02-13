@@ -75,7 +75,7 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
 
 ## Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](link-to-code-of-conduct) for guidelines.
+Contributions are welcome! See CONTRIBUTING.md [(link-to-code-of-conduct)](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## Contact
 
