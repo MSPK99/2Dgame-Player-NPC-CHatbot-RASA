@@ -84,10 +84,10 @@ Below is an example of a conversation using the chatbot in its current iteration
 ## Room for Improvement
 The chatbot is still in the early stages of development, and there are several key areas where we are focusing on improvements:
 
--**Contextual Understanding**: Enhancing the chatbot's ability to understand the context of the conversation and maintain coherence throughout interactions.
--**Response Variability**: Increasing the variability and complexity of responses to avoid repetition and create a more dynamic conversation.
--**Emotional Intelligence**: Improving the chatbot's capability to recognize and appropriately respond to the emotional content of user inputs.
--**Game Integration**: Further developing the integration with game mechanics to provide a seamless experience between gameplay and chatbot interactions.
+- **Contextual Understanding**: Enhancing the chatbot's ability to understand the context of the conversation and maintain coherence throughout interactions.
+- **Response Variability**: Increasing the variability and complexity of responses to avoid repetition and create a more dynamic conversation.
+- **Emotional Intelligence**: Improving the chatbot's capability to recognize and appropriately respond to the emotional content of user inputs.
+- **Game Integration**: Further developing the integration with game mechanics to provide a seamless experience between gameplay and chatbot interactions.
 
 I welcome contributions, especially in these areas, to help evolve the chatbot's conversational abilities and integration into the gaming environment.
 
