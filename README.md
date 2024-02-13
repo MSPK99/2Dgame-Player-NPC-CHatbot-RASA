@@ -49,18 +49,18 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
 
 8. Follow the configuration instructions in `config.yml` for NLU model and dialogue management.
 
-9.  Then to train ur rasa model  
+9. Then to train ur rasa model  
    ```bash
-    rasa train
+   rasa train
    ```
-10. once ur model has been trained. its recommended to create a new terminal and run
-   ```bash
-   rasa run actions
-   ```
-11. finally to converse 
-   ```bash
-   rasa shell
-   ```
+10. Once ur model has been trained. its recommended to create a new terminal and run
+    ```bash
+    rasa run actions
+    ```
+11. Finally to converse 
+    ```bash
+    rasa shell
+    ```
 
 ## Usage
 
@@ -77,7 +77,7 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
 
 Below is an example of a conversation using the chatbot in its current iteration. As the project is in the initial phase, the dialogue showcases the chatbot's current capabilities and areas where refinement and expansion are needed.
 
-![Screenshot 2024-02-13 112608](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/assets/157824384/58503eec-7be3-4b27-b3f4-d30697abe7d9)
+  ![Screenshot 2024-02-13 112608](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/assets/157824384/58503eec-7be3-4b27-b3f4-d30697abe7d9)
 
 
 
