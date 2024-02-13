@@ -26,7 +26,7 @@ Thank you for your interest in contributing to our dynamic chatbot project for 2
 
 ## Code of Conduct
 
-Our project adheres to a Code of Conduct that I expect all contributors to follow. Please read [CODE_OF_CONDUCT.md][link-to-code-of-conduct](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/blob/main/CODE_OF_CONDUCT.md) before contributing to familiarize yourself with these guidelines.
+Our project adheres to a Code of Conduct that I expect all contributors to follow. Please read CODE_OF_CONDUCT.md[link-to-code-of-conduct](https://github.com/MSPK99/2Dgame-Player-NPC-CHatbot-RASA/blob/main/CODE_OF_CONDUCT.md) before contributing to familiarize yourself with these guidelines.
 
 ## Getting Help
 
