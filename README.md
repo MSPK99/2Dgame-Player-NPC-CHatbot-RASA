@@ -104,9 +104,3 @@ Contributions are welcome! See CONTRIBUTING.md [(link-to-code-of-conduct)](https
 
 For inquiries or proposals, contact me at praneethkumar.m@yahoo.com.
 
-webexteamssdk==1.6.1
-websockets==10.4
-Werkzeug==3.0.1
-wrapt==1.14.1
-wsproto==1.2.0
-yarl==1.9.4
