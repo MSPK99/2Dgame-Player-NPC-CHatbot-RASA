@@ -34,14 +34,15 @@ This project is under the GNU Affero General Public License (AGPL), ensuring mod
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
-3. Check Rasa Dependencies at the end
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Install Rasa within the virtual environment:
+3. Install Rasa within the virtual environment:
    ```bash
    pip install rasa
    ```
+4. Check Rasa Dependencies at the end
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 5. Clone the repository to your local machine or game project directory.
 6. Have a reasonable understanding about rasa files. if not create a demo project using 
    ```bash
